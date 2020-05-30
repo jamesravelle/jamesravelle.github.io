@@ -2,30 +2,51 @@ body{
     background-image: url(../images/clouds.jpg);
     background-attachment: fixed;
     background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
 
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+section h1:before{
+    content:'\00BB\0020';
+}
+
+::-moz-selection { /* Code for Firefox */
+    background: aquamarine;
+  }
+  
+::selection {
+    background: aquamarine;
 }
 
 .container{
-    padding-top:80px;
+    padding:80px 0;
 }
 
 header{
     position:fixed;
     width:100%;
-    background-image: linear-gradient(135deg, black 20%, rgb(110, 110, 110)0%);
+    background-image: linear-gradient(135deg, black 40%, rgb(110, 110, 110)0%);
     z-index:2;
+
 }
+
 nav{
-    
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    font-size:24px;
 }
 
 .navbar-brand{
     color:white;
     font-weight:bold;
     padding-left:15px;
+    font-size:24px;
 }
 
-main{
+.main-section{
     background-color:white;
     padding:10px;
     border:2px solid black;
@@ -43,5 +64,33 @@ footer{
     bottom:0;
     background-color:rgb(110,110,110);
     color:white;
-    padding:20px;
+    padding:15px 0 5px 0;
+}
+
+/* medium screen breakpoint */
+@media screen and (max-width:991px){
+    .navbar-brand{
+        padding-left:0;
+    }
+
+    .navbar-nav .nav-item:first-child{
+        border-top:1px solid white;
+        width:25%;
+        min-width:150px;
+    }
+}
+
+/* small screen breakpoint */
+@media screen and (max-width:576px){
+    section img{
+        width:100%;
+    }
+    .col-xs{
+        padding:20px;
+        
+    }
+    .main-section{
+        border:0;
+        box-shadow:0 0 0 transparent;
+    }
 }
