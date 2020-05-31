@@ -57,6 +57,42 @@ nav{
     margin:0 10px 10px 0;
 }
 
+/* Portfolio page styling */
+
+.portfolio-grid{
+    padding:5%;
+    align-content:center;
+    margin-top:-50px;
+}
+
+.portfolio-grid:hover{
+    text-decoration:none;
+    /* Firefox 3.5+ */
+    filter: gray;
+    /* IE6-9 */
+    -webkit-filter: grayscale(1);
+    /* Google Chrome & Safari 6+ */
+}
+
+.portfolio-title{
+    background-color:aquamarine;
+    padding:10px;
+    text-align:center;
+    position:relative;
+    bottom:-80%;
+    width:100%;
+}
+
+.portfolio-title h2{
+    font-size:18px;
+    font-weight:bold;
+    color:black;
+}
+
+.portfolio-image{
+    width:100%;
+}
+
 footer{
     width:100%;
     position:fixed;
@@ -78,6 +114,7 @@ footer{
         width:25%;
         min-width:150px;
     }
+
 }
 
 /* small screen breakpoint */
@@ -92,5 +129,7 @@ footer{
     .main-section{
         border:0;
         box-shadow:0 0 0 transparent;
+        background-color:transparent;
     }
+
 }
