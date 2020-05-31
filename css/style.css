@@ -76,7 +76,7 @@ nav{
 
 .portfolio-title{
     background-color:aquamarine;
-    padding:10px;
+    padding:20px 0 10px 0;
     text-align:center;
     position:relative;
     bottom:-80%;
@@ -84,7 +84,7 @@ nav{
 }
 
 .portfolio-title h2{
-    font-size:18px;
+    font-size:22px;
     font-weight:bold;
     color:black;
 }
