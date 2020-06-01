@@ -22,7 +22,7 @@ section h1:before{
 }
 
 .container{
-    padding:80px 0;
+    padding:100px 0;
 }
 
 header{
@@ -55,6 +55,7 @@ nav{
 
 .profile-pic{
     margin:0 10px 10px 0;
+    width:200px;
 }
 
 /* Portfolio page styling */
@@ -91,6 +92,7 @@ nav{
 
 .portfolio-image{
     width:100%;
+    box-shadow:3px 3px 8px black;
 }
 
 footer{
@@ -130,6 +132,11 @@ footer{
         border:0;
         box-shadow:0 0 0 transparent;
         background-color:transparent;
+    }
+
+    .profile-pic{
+        margin:0;
+        width:100%;
     }
 
 }
