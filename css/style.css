@@ -67,7 +67,6 @@ nav{
 }
 
 .portfolio-grid:hover{
-    text-decoration:none;
     /* Firefox 3.5+ */
     filter: gray;
     /* IE6-9 */
@@ -82,12 +81,17 @@ nav{
     position:relative;
     bottom:-70%;
     width:100%;
+    display:block;
 }
 
 .portfolio-title h2{
     font-size:22px;
     font-weight:bold;
     color:black;
+}
+
+.portfolio-title:hover{
+    text-decoration:none;
 }
 
 .portfolio-image{
