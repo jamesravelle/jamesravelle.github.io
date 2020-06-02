@@ -64,6 +64,7 @@ nav{
     padding:5%;
     align-content:center;
     margin-top:-50px;
+    display:inline;
 }
 
 .portfolio-grid:hover{
@@ -80,7 +81,7 @@ nav{
     padding:20px 0 10px 0;
     text-align:center;
     position:relative;
-    bottom:-80%;
+    bottom:-70%;
     width:100%;
 }
 
@@ -93,6 +94,7 @@ nav{
 .portfolio-image{
     width:100%;
     box-shadow:3px 3px 8px black;
+    margin-top:-50px;
 }
 
 footer{
