@@ -122,6 +122,9 @@ footer{
 
 /* small screen breakpoint */
 @media screen and (max-width:576px){
+    .container{
+        padding:50px 0;
+    }
 
     body{
         background-image: none;
@@ -140,10 +143,8 @@ footer{
         box-shadow:0 0 0 transparent;
         
     }
-
     .profile-pic{
         margin:0;
         width:100%;
     }
-
 }
