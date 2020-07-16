@@ -1,16 +1,13 @@
 body{
-    background-image: url(../images/clouds.jpg);
+    /* background-image: url(../images/clouds.jpg);
     background-attachment: fixed;
-    background-size: cover;
-    font-family: 'Roboto', sans-serif;
+    background-size: cover; */
+    font-family: 'Source Code Pro', monospace;
+    font-weight:bold;
 }
 
 h1,h2,h3,h4,h5,h6{
     font-family: 'Bebas Neue', sans-serif;
-}
-
-section h1:before{
-    content:'\00BB\0020';
 }
 
 ::-moz-selection { /* Code for Firefox */
@@ -19,10 +16,6 @@ section h1:before{
   
 ::selection {
     background: aquamarine;
-}
-
-.container{
-    padding:100px 0;
 }
 
 header{
@@ -47,10 +40,13 @@ nav{
 }
 
 .main-section{
-    background-color:white;
-    padding:10px;
-    border:2px solid black;
-    box-shadow:6px 6px 0 black;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background-color:salmon;   
+    padding:100px;
+    text-align:center;
 }
 
 .profile-pic{
@@ -60,34 +56,34 @@ nav{
 
 /* Portfolio page styling */
 
-.portfolio-grid{
-    padding:5%;
-    align-content:center;
-    display:inline;
+.portfolio-section{
+    padding:50px;
 }
 
-.portfolio-grid:hover{
-    /* Firefox 3.5+ */
-    filter: gray;
-    /* IE6-9 */
-    -webkit-filter: grayscale(1);
-    /* Google Chrome & Safari 6+ */
+.portfolio-grid{
+    padding:20px;
+}
+
+.portfolio-grid p{
+    text-align:center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight:lighter;
 }
 
 .portfolio-title{
-    background-color:aquamarine;
-    padding:20px 0 10px 0;
+    background-color:black;
+    padding:5px 0;
     text-align:center;
     position:relative;
-    bottom:-70%;
-    width:100%;
+    bottom:-150px;
+    width:50%;
+    margin:0 auto;
     display:block;
-}
-
-.portfolio-title h2{
-    font-size:22px;
+    font-family: 'Source Code Pro', monospace;
     font-weight:bold;
-    color:black;
+    font-size:22px;
+    color:white;
+    box-shadow:3px 3px 3px black;
 }
 
 .portfolio-title:hover{
@@ -95,16 +91,35 @@ nav{
 }
 
 .portfolio-image{
+    background-repeat:no-repeat;
+    background-position:left center;
+    background-size:cover;
+    border:1px solid black;
+    margin-bottom:10px;
+    cursor:pointer;
+}
+
+.portfolio-image:hover{
+    /* 
+    filter: gray;
+    /* 
+    -webkit-filter: grayscale(1);
+    /* Google Chrome & Safari 6+ */
+    animation: bg-effect 1s;
+    animation-fill-mode: forwards;
+}
+
+.portfolio-image img{
     width:100%;
-    box-shadow:3px 3px 8px black;
-    margin-top:-50px;
+}
+
+@keyframes bg-effect{
+    0%{filter: hue-rotate(0deg);;}
+    100%{filter: hue-rotate(90deg);}
 }
 
 footer{
     width:100%;
-    position:fixed;
-    z-index:2;
-    bottom:0;
     background-color:rgb(110,110,110);
     color:white;
     padding:15px 0 5px 0;
@@ -140,11 +155,6 @@ footer{
     }
     .col-xs{
         padding:20px;
-        
-    }
-    .main-section{
-        border:0;
-        box-shadow:0 0 0 transparent;
         
     }
     .profile-pic{
