@@ -55,15 +55,34 @@ nav{
     height:100vh;
     display: flex;
     justify-content: center;
-    align-items: center;  
-    background-color:salmon;   
+    align-items: center;     
     padding:100px;
     text-align:center;
+    background-image:url('../images/blue-geo-pattern.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
 }
 
 .profile-pic{
     margin:0 10px 10px 0;
     width:200px;
+}
+
+#browser-window{
+    width:70%;
+    margin:0 auto;
+    padding:120px 50px 50px 50px; 
+    background-image:url('../images/browser-top.png');
+    background-size:100%;
+    background-position: top;
+    background-repeat:no-repeat;
+    border-radius:5px;
+    border:2px solid black;
+    box-shadow:4px 4px 10px black;
+    display:none;
+    background-color:white;
 }
 
 /* Portfolio page styling */
@@ -167,9 +186,34 @@ nav{
     animation-fill-mode: forwards;
 }
 
+.hero-buttons{
+    width:100%;
+}
+.hero-buttons a{
+    width:46%;
+    margin-left:2%;
+    margin-right:2%;
+    padding:5px 10px;
+    background-color:black;
+    color:white;
+    border-radius:5px;
+    text-align:center;
+}
+
 @keyframes more-info-hover-effect{
     0%{background-color:black; color:white;}
     100%{background-color:aquamarine; color:black;}
+}
+
+.more-info-wp{
+    width:80%;
+    margin:0 auto;
+    position:absolute;
+    bottom:10px;
+    left:10%;
+    cursor:pointer;
+    letter-spacing: 1px;
+    display:block;
 }
 
 .more-info-wp{
@@ -195,12 +239,15 @@ nav{
     text-align:center;
 }
 
-.more-info-wp a:hover{
+.more-info-wp a:hover, .hero-buttons a:hover{
     text-decoration:none;
     color:white;
     animation: more-info-wp-hover-effect 1s;
     animation-fill-mode: forwards;
 }
+
+
+
 
 @keyframes more-info-wp-hover-effect{
     0%{background-color:black; color:white; letter-spacing:1px;}
@@ -216,20 +263,15 @@ footer{
 
 /* medium screen breakpoint */
 @media screen and (max-width:991px){
-    .navbar-brand{
-        padding-left:0;
-    }
-
-    .navbar-nav .nav-item:first-child{
-        border-top:1px solid white;
-        width:25%;
-        min-width:150px;
-    }
-
+    .main-section{padding:100px 50px 50px 50px; height:auto;}
+    #browser-window{ width:100%; }
 }
 
 /* small screen breakpoint */
 @media screen and (max-width:576px){
+    .hero-buttons a{display:block; width:60%; margin-left:20%;margin-right:20%;margin-bottom:10px;}
+    .main-section{padding:100px 25px 50px 25px; height:auto;}
+    #browser-window{ width:100%; }
     .container{
         padding:50px 0;
     }
