@@ -264,11 +264,13 @@ footer{
 /* medium screen breakpoint */
 @media screen and (max-width:991px){
     .main-section{padding:100px 50px 50px 50px; height:auto;}
+    .portfolio-section{ padding:25px; }
     #browser-window{ width:100%; }
 }
 
 /* small screen breakpoint */
 @media screen and (max-width:576px){
+    .portfolio-section{ padding:0; }
     .hero-buttons a{display:block; width:60%; margin-left:20%;margin-right:20%;margin-bottom:10px;}
     .main-section{padding:100px 25px 50px 25px; height:auto;}
     #browser-window{ width:100%; }
