@@ -1,8 +1,8 @@
 $( document ).ready(function() {
 
-    var i = 0;
-    var txt = 'About Me';
-    var speed = 100; 
+var i = 0;
+var txt = 'About Me';
+var speed = 100; 
 
 function typeWriter() {
   if (i < txt.length) {
@@ -12,10 +12,8 @@ function typeWriter() {
   }
 }   
 
-    $( "#browser-window" ).toggle( "slide", function(){
-        typeWriter();
-    });
-
-
+$( "#browser-window" ).toggle( "slide", function(){
+    typeWriter();
+});
 
 });
