@@ -23,13 +23,14 @@ header{
     width:100%;
     /* background-image: linear-gradient(135deg, black 40%, aquamarine 0%); */
     z-index:2;
-    background-color:aquamarine;
+    background-color:rgb(127,255,212,.9);
 }
 
 nav{
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 2px;
     font-size:24px;
+    height:70px;
 }
 
 .navbar-brand{
@@ -37,6 +38,7 @@ nav{
     font-weight:bold;
     padding-left:15px;
     font-size:24px;
+    position:absolute;
 }
 
 .header-icons{
@@ -45,9 +47,9 @@ nav{
     margin:0 10px;
 }
 
-.header-icons:hover{
+.navbar-brand:hover, .header-icons:hover{
     font-size:35px;
-    color:blue;
+    color:white;
     transition:500ms;
 }
 
@@ -184,9 +186,11 @@ nav{
 
 .hero-buttons{
     width:100%;
+    display:block;
 }
 .hero-buttons a{
-    width:46%;
+    display:inline-block;
+    width:44%;
     margin-left:2%;
     margin-right:2%;
     padding:5px 10px;
@@ -242,12 +246,33 @@ nav{
     animation-fill-mode: forwards;
 }
 
-
-
-
 @keyframes more-info-wp-hover-effect{
     0%{background-color:black; color:white; letter-spacing:1px;}
-    100%{background-color:aquamarine; color:black;letter-spacing:5px;}
+    100%{background-color:aquamarine; color:black;letter-spacing:3px;}
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 45px;
+  color: black;
+  text-shadow:0 0 5px white;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 45px;
+  color: black;
+  text-shadow:0 0 5px white;
 }
 
 footer{
