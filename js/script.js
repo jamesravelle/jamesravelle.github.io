@@ -30,11 +30,11 @@ $(document).on("click", '.print', function(e){
 $(document).on("click", '.digital', function(e){
   e.preventDefault();
   $('.modal-tital').text("Digital");
-  $('.carousel-item:nth-child(1) img').attr('src','./files/digital/Win-email.jpg');
-  $('.carousel-item:nth-child(2) img').attr('src','./files/digital/SW-email.jpg');
+  $('.carousel-item:nth-child(1) img').attr('src','./files/digital/Win-email.JPG');
+  $('.carousel-item:nth-child(2) img').attr('src','./files/digital/SW-email.JPG');
   $('.carousel-item:nth-child(3) img').attr('src','./files/digital/online-therapy-page.jpg');
   $('.carousel-item:nth-child(4) img').attr('src','./files/digital/newsletter-signup-lp.jpg');
-  $('.carousel-item:nth-child(5) img').attr('src','./files/digital/Halloween.jpg');
+  $('.carousel-item:nth-child(5) img').attr('src','./files/digital/Halloween.JPG');
   $('.carousel-item:nth-child(6) img').attr('src','./files/digital/newsletter.jpg');
 })
 
