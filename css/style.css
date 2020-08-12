@@ -94,7 +94,6 @@ nav{
     border:2px solid black;
     box-shadow:5px 5px 0 black;
     height:95%;
-    
 }
 
 .portfolio-grid p{
@@ -102,8 +101,6 @@ nav{
     text-align:center;
     font-family: 'Source Code Pro', monospace;
     font-weight:lighter;
-
-    
 }
 
 .portfolio-title{
@@ -275,6 +272,18 @@ nav{
   text-shadow:0 0 5px white;
 }
 
+.video-section{
+    padding:50px;
+}
+
+.video-section iframe{
+    width:100%;
+    height:280px;
+    margin:20px;
+    border:2px solid black;
+    box-shadow:5px 5px 0 black;
+}
+
 footer{
     width:100%;
     background-color:rgb(110,110,110);
@@ -287,6 +296,7 @@ footer{
     .main-section{padding:100px 50px 50px 50px; height:auto;}
     .portfolio-section{ padding:25px; }
     #browser-window{ width:100%; }
+    .video-section iframe{height:350px;}
 }
 
 /* small screen breakpoint */
@@ -315,4 +325,5 @@ footer{
         margin:0;
         width:100%;
     }
+    .video-section iframe{height:250px;}
 }
