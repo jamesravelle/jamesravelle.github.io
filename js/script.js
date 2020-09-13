@@ -49,6 +49,4 @@ $(document).on("click", '.branding', function(e){
   $('.carousel-item:nth-child(6) img').attr('src','./files/branding/branding-fenix.jpg');
 })
 
-$('[data-toggle="tooltip"]').tooltip();
-
 });
