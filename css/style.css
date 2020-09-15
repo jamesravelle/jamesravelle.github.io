@@ -63,6 +63,18 @@ nav{
     background-color:aquamarine;
 }
 
+.jump-down{
+    background-color:black; 
+    color:white; 
+    width:100%;
+    position:absolute;
+    bottom:0;
+}
+
+.jump-down:hover{
+    text-decoration:none;
+}
+
 .profile-pic{
     margin:0 10px 10px 0;
     width:200px;
