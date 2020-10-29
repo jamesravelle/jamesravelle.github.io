@@ -1,0 +1,117 @@
+.hero{
+    /* background-color:#282828; */
+    color:white; 
+    min-height:50vh;
+}
+
+.hero-row{
+    min-height:500px;
+    transition:all 500ms;
+}
+
+.intro{
+    background-color:#F7F7F7;
+    color:#282828;
+    padding:30px;
+    text-align:center;
+    transition:all 500ms;
+    width:100%;
+    border:2px solid black;
+    box-shadow:4px 4px 0 black;
+}
+
+.hero-title{
+    width:100%;
+    text-align:center;
+    margin:25px 0;
+}
+
+.large-header {
+    position: relative;
+    width: 100%;
+    /* background: #282828; */
+    background: rgb(255,66,66);
+background: linear-gradient(140deg, rgba(255,66,66,1) 0%, rgba(0,129,255,1) 100%);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+    transition:all 500ms;
+ }
+
+ @media (max-width: 576px) { 
+   .large-header {
+    min-height:900px;
+   }
+}
+ 
+ .main-title {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+    width:90%;
+    max-width:900px;
+ }
+
+ .text-shadow{
+    color:white;
+   text-shadow:3px 3px 0 black;
+ }
+ 
+ .demo .main-title {
+    text-transform: uppercase;
+    font-size: 4.2em;
+    letter-spacing: 0.1em;
+ }
+ 
+ .main-title .thin {
+    font-weight: 200;
+ }
+ 
+ @media only screen and (max-width: 768px) {
+    .demo .main-title {
+       font-size: 3em;
+    }
+ }
+
+ .connect-with-me{
+    transition:all 500ms;
+ }
+
+ .connect-with-me h3{
+    margin-top:30px;
+    font-size:22px;
+ }
+
+ .connect-with-me a{
+   font-size:30px;
+   color:white;
+   padding:0 30px 0 10px;
+ }
+
+ .connect-with-me a:hover{
+   color:#DFDFDF;
+   text-decoration:none;
+   transition:all 200ms;
+ }
+
+ .connect-icon-text{
+    font-size:22px;
+    margin-left:10px;
+ }
+ @media (max-width:767px) and (min-width:576px) {
+   .main-title {
+       margin-top:100px;
+   }
+}​
+ .divider{
+    width:100%;
+    margin-top:-200px;
+ }
+
+
