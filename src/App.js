@@ -27,6 +27,7 @@ import gccimg from './components/Images/gcc.PNG'
 // Animations
 import Zoom from 'react-reveal/Zoom';
 
+
 function App() {
   const imagePath = "https://raw.githubusercontent.com/jamesravelle/react-portfolio/main/public/images/"
   const [projectState, setProjectState] = useState(
@@ -108,35 +109,17 @@ function App() {
     ]
   );
 
-  const [heroState, setHeroState] = useState({
-    text: "Welcome",
-    height: "100vh",
-    location: "home",
-    showIntro: true,
-    bgColor: "#282828"
-  })
-
-  const heroUpdate = (title, height, location, intro, color) => {
-    setHeroState({
-      text: title,
-      height: height,
-      location: location,
-      showIntro: intro,
-      bgColor: color
-    })
-  }
-
-  const [showHeader, setShowHeader] = useState({show:false})
-  
   return (
     <div>
-      <Header heroUpdate={heroUpdate}/>
+      <Header />
       <Main>
       <Hero />
       <Zoom>
+      <div id="aboutme"></div>
       <AboutMe />
       </Zoom>
       <div id="work"></div>
+      <div id="applications"></div>
         <Section title="Applications">
         {
           projectState.map((x,i) => {
@@ -146,6 +129,7 @@ function App() {
           })
         }
         </Section>
+        <div id="websites"></div>
         <Section title="Websites">
         {
           websiteState.map((x,i) => {

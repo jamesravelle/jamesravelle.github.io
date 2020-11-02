@@ -2,6 +2,7 @@ import React from 'react';
 import '../Hero/Hero.css'
 import Button from '../Button/Button'
 import divider from '../Images/wavy-motion-top.png'
+import Particles from 'react-particles-js';
 
 function Hero(props) {
     const heightComp = props.height;
@@ -13,7 +14,6 @@ function Hero(props) {
     return (
         <div class="content">
            <div id="large-header" class="large-header" >
-              <canvas id="demo-canvas"></canvas>
               <div className="main-title">
                   <h1 className="text-shadow" style={{marginBottom: "20px"}}>Hello, I'm James Ravelle</h1>
                   <div className="intro">
@@ -38,7 +38,26 @@ function Hero(props) {
                 </div>
                 
               </div>
-        </div>
+              <Particles
+                params={{
+                    "particles": {
+                        "number": {
+                            "value": 150
+                        },
+                        "size": {
+                            "value": 3
+                        }
+                    },
+                    "interactivity": {
+                        "events": {
+                            "onhover": {
+                                "enable": true,
+                                "mode": "repulse"
+                            }
+                        }
+                    }
+                }} />
+            </div>
         </div>
     );
   }

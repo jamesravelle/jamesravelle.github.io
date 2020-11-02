@@ -21,3 +21,13 @@ code {
     monospace;
 }
 
+.section-padding{
+  margin:50px;
+}
+
+@media (max-width: 576px) {
+  .section-padding{
+      margin:20px;
+  }
+}
+

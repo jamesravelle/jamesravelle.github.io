@@ -5,7 +5,7 @@ function Section({children, title, show}) {
     console.log(show)
 
         return (
-            <div style={{padding:"50px"}}>
+            <div className="section-padding">
             <section className="row row-eq-height">
                 <div className="sectionHeading"><h1>{title}</h1></div>
                         {children}

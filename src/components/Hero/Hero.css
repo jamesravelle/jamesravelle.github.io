@@ -29,9 +29,10 @@
 .large-header {
     position: relative;
     width: 100%;
-    /* background: #282828; */
     background: rgb(255,66,66);
-background: linear-gradient(140deg, rgba(255,66,66,1) 0%, rgba(0,129,255,1) 100%);
+    background: linear-gradient(140deg, rgba(255,66,66,1) 0%, rgba(0,129,255,1) 100%);
+    /* background: rgb(0,0,0);
+background: linear-gradient(140deg, rgba(0,0,0,1) 0%, rgba(73,73,73,1) 100%); */
     overflow: hidden;
     background-size: cover;
     background-position: center center;
@@ -56,6 +57,10 @@ background: linear-gradient(140deg, rgba(255,66,66,1) 0%, rgba(0,129,255,1) 100%
     transform: translate3d(-50%, -50%, 0);
     width:90%;
     max-width:900px;
+ }
+
+ .main-title h1{
+    font-size:60px;
  }
 
  .text-shadow{
@@ -95,7 +100,7 @@ background: linear-gradient(140deg, rgba(255,66,66,1) 0%, rgba(0,129,255,1) 100%
  }
 
  .connect-with-me a:hover{
-   color:#DFDFDF;
+   color:#00FFA2;
    text-decoration:none;
    transition:all 200ms;
  }
@@ -114,4 +119,6 @@ background: linear-gradient(140deg, rgba(255,66,66,1) 0%, rgba(0,129,255,1) 100%
     margin-top:-200px;
  }
 
-
+#tsparticles{
+   min-height:100vh;
+}

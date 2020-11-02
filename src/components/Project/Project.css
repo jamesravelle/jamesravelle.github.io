@@ -24,7 +24,7 @@
 }
 
 .screenshot-overlay:before{
-    content:  "View Live Application";
+    content:  "View Live";
     position:absolute;
     width:80%;
     text-align:center;
