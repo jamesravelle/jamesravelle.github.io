@@ -1,0 +1,73 @@
+.language-row{
+background-color:black;
+padding-left:5%;
+}
+
+.language-icon-wrapper{
+  padding:10px;
+  width:8%;
+  text-align:center;
+}
+
+.language-icon svg{
+  margin-left:-75px;
+  transform-origin: scale(0);
+  -ms-transform: scale(0);
+  -webkit-transform: scale(0);
+  animation-name: mymove;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 500ms;
+}
+
+@keyframes mymove {
+    0% {
+      transform-origin: scale(0);
+      -ms-transform: scale(0);
+      -webkit-transform: scale(0);
+    }
+    100%{
+      transform-origin: scale(.5);
+      -ms-transform: scale(.5);
+      -webkit-transform: scale(.5);
+    }
+  }
+
+
+@media (max-width: 576px) { 
+  .language-icon-wrapper{
+    padding:15px;
+    width:33%;
+  }
+
+  .language-icon svg{
+    margin-left:-60px;
+    margin-bottom:-50px;
+  }
+}
+
+
+@media (min-width:576px) and (max-width: 768px) { 
+  .language-icon-wrapper{
+    padding:15px;
+    width:25%;
+  }
+
+  .language-icon svg{
+    margin-left:-60px;
+    margin-bottom:-50px;
+  }
+ }
+
+
+@media (min-width:769px) and (max-width: 992px) { 
+  .language-icon-wrapper{
+    padding:10px;
+    width:16%;
+  }
+
+  .language-icon svg{
+    margin-left:-60px;
+    margin-bottom:-50px;
+  }
+ }

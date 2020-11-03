@@ -1,9 +1,11 @@
 .sectionHeading{
     width:100%;
-    text-align:left;
+    text-align:center;
     padding:40px 0 10px 0;
     margin-left:15px;
     color:black;
     border-bottom:2px solid black;
+    text-shadow:2px 3px 0 #00FFA2;
 }
+
 

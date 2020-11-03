@@ -54,9 +54,9 @@ function stickyFilter() {
           <div id="menu" className="menu-closed">
             <div className="menu-close" onClick={menuToggle}><i class="fa fa-times" aria-hidden="true"></i></div>
             <br/>
-              <a className="nav-link" href="#aboutme">About Me</a>
-              <a className="nav-link" href="#applications">Applications</a>
-              <a className="nav-link" href="#websites">Websites</a>
+              <a className="nav-link" href="#aboutme">About Me</a><br />
+              <a className="nav-link" href="#applications">Applications</a><br />
+              <a className="nav-link" href="#websites">Websites</a><br />
               <div class="collapse-menu-icons" id="icon-links">
                 Connect with me:<br />
                 <a href="mailto:james.ravelle@gmail.com" className="menu-icons"><i class="fa fa-envelope" aria-hidden="true"></i></a>

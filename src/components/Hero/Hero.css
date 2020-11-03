@@ -29,10 +29,9 @@
 .large-header {
     position: relative;
     width: 100%;
-    background: rgb(255,66,66);
-    background: linear-gradient(140deg, rgba(255,66,66,1) 0%, rgba(0,129,255,1) 100%);
-    /* background: rgb(0,0,0);
-background: linear-gradient(140deg, rgba(0,0,0,1) 0%, rgba(73,73,73,1) 100%); */
+    /* background: rgb(255,66,66);
+    background: linear-gradient(140deg, rgba(255,66,66,1) 0%, rgba(0,129,255,1) 100%); */
+    background-color:black;
     overflow: hidden;
     background-size: cover;
     background-position: center center;
@@ -65,7 +64,7 @@ background: linear-gradient(140deg, rgba(0,0,0,1) 0%, rgba(73,73,73,1) 100%); */
 
  .text-shadow{
     color:white;
-   text-shadow:3px 3px 0 black;
+   text-shadow:3px 3px 4px black;
  }
  
  .demo .main-title {
