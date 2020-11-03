@@ -70,17 +70,7 @@ nav{
 }
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
-.sticky {
-    position: fixed;
-    top: 10px;
-    z-index:99999;
-    right:10px;
-    transition:all 300ms;
-  }
 
-  .sticky .menu-icons{
-    color:black;
-  }
 
 .sticky-menu {
     position: fixed;

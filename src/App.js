@@ -9,6 +9,7 @@ import Section from "./components/Section/Section"
 import Popup from "./components/Popup/Popup"
 import Button from './components/Button/Button'
 import AboutMe from './components/AboutMe'
+import Design from './components/Design'
 
 // Application Images
 import winehubimg from './components/Images/winehub.PNG'
@@ -137,7 +138,7 @@ function App() {
           })
         }
         </Section>
-        
+        <Design />
       </ Main>
       <Footer />
       

@@ -12,9 +12,9 @@
 }
 
 .hover-class{
-    background-color:white;
+    background-color:#00FFA2;
     color:black;
-    border:2px solid white;
+    border:2px solid #00FFA2;
     letter-spacing:2px;
     text-decoration:none;
 }
