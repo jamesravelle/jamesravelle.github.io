@@ -18,7 +18,7 @@ function Hero(props) {
                   <h1 className="text-shadow" style={{marginBottom: "20px"}}>Hello, I'm James Ravelle</h1>
                   <div className="intro">
                     <p>
-                    Thank you for visiting my portfolio - I built it with <a href="https://reactjs.org/">React.js</a> :) I am a full stack web developer with several years of experience building websites and applications.
+                    Thank you for visiting my portfolio - I built it with <a href="https://github.com/jamesravelle/jamesravelle.github.io" target="_blank">React.js</a> :) I am a full stack web developer with several years of experience building websites and applications.
                     </p>
                     <div className="row">
                         <div className="col">

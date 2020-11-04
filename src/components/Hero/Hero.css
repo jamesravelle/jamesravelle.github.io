@@ -81,6 +81,10 @@
     .demo .main-title {
        font-size: 3em;
     }
+
+    .main-title h1{
+      font-size:42px;
+   }
  }
 
  .connect-with-me{

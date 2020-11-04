@@ -12,7 +12,7 @@ function Project(props) {
         <div className="col-sm-6 col-md-6 col-lg-4" style={{marginBottom:"20px"}}>
             <div className="project-wrapper">
              <div className={hoverState ? "screenshot screenshot-overlay" : "screenshot"} >
-                        <a 
+                        <a  target="_blank"
                             onMouseEnter={() => setHover(true)}
                             onMouseLeave={() => setHover(false)}
                             href={props.value.liveURL} 

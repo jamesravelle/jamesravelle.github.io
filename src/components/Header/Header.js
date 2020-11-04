@@ -57,6 +57,7 @@ function stickyFilter() {
               <a className="nav-link" href="#aboutme">About Me</a><br />
               <a className="nav-link" href="#applications">Applications</a><br />
               <a className="nav-link" href="#websites">Websites</a><br />
+              <a className="nav-link" href="#marketing">Marketing</a><br />
               <div class="collapse-menu-icons" id="icon-links">
                 Connect with me:<br />
                 <a href="mailto:james.ravelle@gmail.com" className="menu-icons" onClick={menuToggle}><i class="fa fa-envelope" aria-hidden="true"></i></a>

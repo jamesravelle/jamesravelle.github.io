@@ -1,0 +1,9 @@
+.project-button{
+    padding:0 20%;
+}
+
+@media (max-width: 576px) { 
+    .project-button{
+        padding:0 10%;
+    }
+ }

@@ -10,6 +10,7 @@ import Popup from "./components/Popup/Popup"
 import Button from './components/Button/Button'
 import AboutMe from './components/AboutMe'
 import Design from './components/Design'
+import ContactMe from './components/ContactMe'
 
 // Application Images
 import winehubimg from './components/Images/winehub.PNG'
@@ -24,6 +25,7 @@ import asiimg from './components/Images/asi.PNG'
 import brocimg from './components/Images/broc.PNG'
 import calyximg from './components/Images/calyx.PNG'
 import gccimg from './components/Images/gcc.PNG'
+import stacollect from './components/Images/sta.PNG'
 
 // Animations
 import Zoom from 'react-reveal/Zoom';
@@ -42,7 +44,7 @@ function App() {
       },
       {
         title: "GameSwap",
-        description: "Game trading application built with node.js, SQL, express, handelbars and others. To test, login in with test@gmail.com / password",
+        description: "Game trading application built with node.js, SQL, express, handelbars, travis and others. To test, login in with test@gmail.com / password",
         githubURL: "https://github.com/jamesravelle/project-2",
         liveURL: "https://project2-rmdm.herokuapp.com/",
         image: gameswapimg
@@ -79,6 +81,13 @@ function App() {
   );
   const [websiteState, setWebsiteState] = useState(
     [
+      {
+        title: "STA Collect",
+        description: "Custom WordPress website built with HTML, CSS, Javascript, jQuery, PHP and Bootstrap.",
+        githubURL: "",
+        liveURL: "https://beta.stacollect.com/",
+        image: stacollect
+      },
       {
         title: "The GOCC",
         description: "Custom WordPress website built with HTML, CSS, Javascript, jQuery, PHP and Bootstrap. Designed logo and branding.",
@@ -138,6 +147,7 @@ function App() {
           })
         }
         </Section>
+        <div id="marketing"></div>
         <Design />
       </ Main>
       <Footer />

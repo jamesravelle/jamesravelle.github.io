@@ -16,7 +16,7 @@ function AboutMe() {
         <div className="col-md-9">
                 <div style={{padding:"20px"}}>
             <h2>About Me</h2>
-            <p>Full stack web developer with strong digital marketing and graphic design background. Recently earned a certificate in full stack development from the University of Pennsylvania to complement my pre-existing web development abilities. Successfully built and managed several applications, custom WordPress websites, designed branding for several companies and managed numerous development projects. Enthusiastic about learning and applying new skills with a graduate level education.  I stay calm in fast-paced situations and rely on logic to persevere when code isn’t working how I planned. I adapt quickly and communicate effectively; this strength came in handy when coding in teams. Passionate about solving programming challenges and creative thinking. </p>
+            <p>Full stack web developer with strong digital marketing and graphic design background. Completed a full stack web development certificate program from the University of Pennsylvania and earned an MBA. Successfully built and managed several applications, custom WordPress websites, designed branding for several companies and managed numerous development projects. I stay calm in fast-paced situations and rely on logic to persevere when code isn’t working how I planned. I adapt quickly and communicate effectively; this strength came in handy when coding in teams. Passionate about solving programming challenges and creative thinking. </p>
             <hr style={{width:"100%", color:"black", backgroundColor:"black",height:"1px"}} />  
             <div className="row">
             <div className="col">
