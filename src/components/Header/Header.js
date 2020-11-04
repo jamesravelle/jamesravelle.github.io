@@ -47,7 +47,7 @@ function stickyFilter() {
                 <a href="mailto:james.ravelle@gmail.com" className="menu-icons"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                 <a href="https://github.com/jamesravelle/" target="_blank"  className="menu-icons"><i class="fa fa-github" aria-hidden="true" title="GitHub"></i></a>
                 <a href="https://www.linkedin.com/in/james-ravelle-bb640067/" target="_blank"  className="menu-icons"><i class="fa fa-linkedin-square" aria-hidden="true" title="LinkedIn"></i></a>
-                <a href="https://raw.githubusercontent.com/jamesravelle/react-portfolio/main/public/files/JamesRavelle_Resume.pdf" target="_blank"  className="menu-icons"><i class="fa fa-file-text" aria-hidden="true" title="Resume"></i></a>
+                <a href="https://github.com/jamesravelle/jamesravelle.github.io/blob/master/public/files/JamesRavelle_Resume.pdf?raw=true" target="_blank"  className="menu-icons"><i class="fa fa-file-text" aria-hidden="true" title="Resume"></i></a>
               </div>
               </div>
           </nav>
@@ -63,7 +63,7 @@ function stickyFilter() {
                 <a href="mailto:james.ravelle@gmail.com" className="menu-icons" onClick={menuToggle}><i class="fa fa-envelope" aria-hidden="true"></i></a>
                 <a href="https://github.com/jamesravelle/" target="_blank"  className="menu-icons" onClick={menuToggle}><i class="fa fa-github" aria-hidden="true" title="GitHub"></i></a>
                 <a href="https://www.linkedin.com/in/james-ravelle-bb640067/" target="_blank"  className="menu-icons" onClick={menuToggle}><i class="fa fa-linkedin-square" aria-hidden="true" title="LinkedIn"></i></a>
-                <a href="https://raw.githubusercontent.com/jamesravelle/react-portfolio/main/public/files/JamesRavelle_Resume.pdf" target="_blank"  className="menu-icons" onClick={menuToggle}><i class="fa fa-file-text" aria-hidden="true" title="Resume"></i></a>
+                <a href="https://github.com/jamesravelle/jamesravelle.github.io/blob/master/public/files/JamesRavelle_Resume.pdf?raw=true" target="_blank"  className="menu-icons" onClick={menuToggle}><i class="fa fa-file-text" aria-hidden="true" title="Resume"></i></a>
               </div>
           </div>
         </header>
