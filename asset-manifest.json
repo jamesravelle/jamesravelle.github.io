@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.5fecd575.chunk.css",
-    "main.js": "/static/js/main.d68bd016.chunk.js",
-    "main.js.map": "/static/js/main.d68bd016.chunk.js.map",
+    "main.css": "/static/css/main.3b171a57.chunk.css",
+    "main.js": "/static/js/main.d3511b96.chunk.js",
+    "main.js.map": "/static/js/main.d3511b96.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e312f208.js",
     "runtime-main.js.map": "/static/js/runtime-main.e312f208.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.3b64b661.chunk.js": "/static/js/2.3b64b661.chunk.js",
-    "static/js/2.3b64b661.chunk.js.map": "/static/js/2.3b64b661.chunk.js.map",
+    "static/js/2.900e0146.chunk.js": "/static/js/2.900e0146.chunk.js",
+    "static/js/2.900e0146.chunk.js.map": "/static/js/2.900e0146.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a82b39bc899c37a5553c1bb38ef54a4b.js": "/precache-manifest.a82b39bc899c37a5553c1bb38ef54a4b.js",
+    "precache-manifest.b3d1c57ac3fa41316fa3a2bbeac9e18d.js": "/precache-manifest.b3d1c57ac3fa41316fa3a2bbeac9e18d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.5fecd575.chunk.css.map": "/static/css/main.5fecd575.chunk.css.map",
-    "static/js/2.3b64b661.chunk.js.LICENSE.txt": "/static/js/2.3b64b661.chunk.js.LICENSE.txt",
+    "static/css/main.3b171a57.chunk.css.map": "/static/css/main.3b171a57.chunk.css.map",
+    "static/js/2.900e0146.chunk.js.LICENSE.txt": "/static/js/2.900e0146.chunk.js.LICENSE.txt",
     "static/media/asi.PNG": "/static/media/asi.9c61161c.PNG",
     "static/media/broc.PNG": "/static/media/broc.57c3a1a4.PNG",
     "static/media/calyx.PNG": "/static/media/calyx.84b1ad0e.PNG",
@@ -23,6 +23,7 @@
     "static/media/gcc.PNG": "/static/media/gcc.940bc44f.PNG",
     "static/media/google-books.PNG": "/static/media/google-books.52bac956.PNG",
     "static/media/me.jpg": "/static/media/me.5423d188.jpg",
+    "static/media/sta.PNG": "/static/media/sta.63666664.PNG",
     "static/media/wavy-motion-top.png": "/static/media/wavy-motion-top.5f889e23.png",
     "static/media/weather.PNG": "/static/media/weather.7af15d09.PNG",
     "static/media/winehub.PNG": "/static/media/winehub.cb0ff4c2.PNG"
@@ -30,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.e312f208.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.3b64b661.chunk.js",
-    "static/css/main.5fecd575.chunk.css",
-    "static/js/main.d68bd016.chunk.js"
+    "static/js/2.900e0146.chunk.js",
+    "static/css/main.3b171a57.chunk.css",
+    "static/js/main.d3511b96.chunk.js"
   ]
 }
