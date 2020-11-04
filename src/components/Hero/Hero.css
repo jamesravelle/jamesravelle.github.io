@@ -43,11 +43,14 @@
    .large-header {
     min-height:900px;
    }
+   .main-title{
+      margin:30px 0 0 0 !important;
+   }
 }
  
  .main-title {
     position: absolute;
-    margin: 0;
+    margin: 50px 0 0 0;
     padding: 0;
     text-align: center;
     top: 45%;
