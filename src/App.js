@@ -85,7 +85,7 @@ function App() {
         title: "STA Collect",
         description: "Custom WordPress website built with HTML, CSS, Javascript, jQuery, PHP and Bootstrap.",
         githubURL: "",
-        liveURL: "https://beta.stacollect.com/",
+        liveURL: "https://stacollect.com/",
         image: stacollect
       },
       {
