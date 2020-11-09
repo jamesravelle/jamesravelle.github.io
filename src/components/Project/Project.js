@@ -20,6 +20,7 @@ function Project(props) {
                             style={{backgroundImage:`url('${props.value.image}')`}}
                         >
                         </a>
+                        <a href={props.value.liveURL} className="overlay-popup">View Live Application</a>
              </div>
              <div className="project-description">
                             <div className="project-description-text">

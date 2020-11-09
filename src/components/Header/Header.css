@@ -182,10 +182,10 @@ nav{
  .collapse-menu-icons{
      color:white;
      position:absolute;
-     bottom:20px;
+     bottom:100px;
      width:80%;
      border:1px solid white;
-     padding:5px 15px;
+     padding:15px;
      text-align:center;
  }
 

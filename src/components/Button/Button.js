@@ -4,7 +4,7 @@ import "../Button/Button.css"
 function Button({children, url, heroUpdate, onClick}) {
     const [hoverState, setHover] = useState(false);
     return (
-        <a className="buttonWrapper" href={url}>
+        <a className="buttonWrapper" href={url} target="_blank">
                 <button 
                 className={hoverState ? "hover-class cta" : "cta"}
                 onMouseEnter={() => setHover(true)}
