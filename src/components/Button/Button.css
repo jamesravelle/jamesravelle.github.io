@@ -24,15 +24,23 @@
     padding:5px;
 }
 
+.cta i{
+    opacity:0;
+    margin-left:0;
+    transition:all 300ms;
+}
+
+.hover-class i{
+    opacity:1;
+    margin-left:20px;
+    transition:all 300ms;
+}
+
 /* // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { ... } */
 
 /* // Medium devices (tablets, 768px and up) */
-@media (max-width: 1200px) { 
-    .cta{
-        
-    }
-}
+/* @media (max-width: 1200px) { ... } */
 
 /* // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { ... }

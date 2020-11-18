@@ -22,7 +22,7 @@ function Hero(props) {
                     </p>
                     <div className="row">
                         <div className="col">
-                            <Button url={"#work"}>View Work</Button>
+                            <Button url={"#work"} targetBlank={false}>View Work<i class="fa fa-chevron-right" aria-hidden="true"></i></Button>
                         </div>
                     </div>
                 </div>
