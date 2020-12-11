@@ -26,6 +26,7 @@ import brocimg from './components/Images/broc.PNG'
 import calyximg from './components/Images/calyx.PNG'
 import gccimg from './components/Images/gcc.PNG'
 import stacollect from './components/Images/sta.PNG'
+import fenix from './components/Images/fenix.PNG'
 
 // Animations
 import Zoom from 'react-reveal/Zoom';
@@ -115,6 +116,13 @@ function App() {
         githubURL: "",
         liveURL: "https://www.assetsource.com/",
         image: asiimg
+      },
+      {
+        title: "Fenix Translation Services",
+        description: "Custom logo, branding and WordPress website built with Elementor.",
+        githubURL: "",
+        liveURL: "https://fenixtranslate.com/",
+        image: fenix
       }
     ]
   );
